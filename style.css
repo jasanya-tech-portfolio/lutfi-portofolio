@@ -26,7 +26,7 @@
   h2 {
     text-align: center;
   }
-  a{
+  a {
     color: white;
     text-decoration: none;
   }
@@ -37,10 +37,12 @@
     cursor: pointer;
   }
   img:hover {
-    filter:grayscale(0)
+    filter:grayscale(0);
+    transform: scale(1.5);
   }
   .portofolio {
     display: flex;
+    gap: 20px;
   }
   .portofolio div p {
     text-align: center;
@@ -54,8 +56,4 @@
   .icon-caption img {
     width: 40px;
     height: 40px;
-  }
-  .white {
-  
-    filter: grayscale(70%);
   }
