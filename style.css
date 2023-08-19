@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     height: 100vh;
   }
   h1{
@@ -24,4 +25,37 @@
   }
   h2 {
     text-align: center;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  img{
+    width: 15vw;
+    height: 15vh;
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+  img:hover {
+    filter:grayscale(0)
+  }
+  .portofolio {
+    display: flex;
+  }
+  .portofolio div p {
+    text-align: center;
+  }
+  .icon-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .icon-caption img {
+    width: 40px;
+    height: 40px;
+  }
+  .white {
+  
+    filter: grayscale(70%);
   }
