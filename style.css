@@ -83,6 +83,7 @@
   }
   .icon-caption {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
@@ -90,6 +91,11 @@
   .icon-caption img {
     width: 40px;
     height: 40px;
+  }
+  .icon {
+    display: flex;
+    gap: 10px;
+    color: white;
   }
 
   /* Carousel */
@@ -152,8 +158,26 @@
   }
 
   @media (max-width:640px) {
+  .center {
+    height: 200vh;
+    padding: 0 20px;
+  }
+  
+  .portofolio {
+    flex-direction: column;
+  }
+
+  .porto-card img{
+    width: 80vw;
+    height: 25vh;
+  }
+
+  .porto-card img:hover {
+    transform: scale(1.2);
+  }
+
   .animate-character {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .card img {
